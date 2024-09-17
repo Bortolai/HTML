@@ -1,0 +1,45 @@
+*{
+    margin: 0 auto;      /* atribuições gerais, à tudo que ainda não foi especificado */
+    padding: 0;          /* margem 0 em cima e embaixo */
+}
+#wrapper{
+    width: 100%;
+    height: 3000px;
+    background-color: #336699;
+}
+
+#cabecalhoPrincipal {
+    width: 100%;
+    height: 140px;
+    background-color: beige;
+}
+
+#perfil {
+    width: 100%;
+    height: 20px;
+    background-color: #921d09;
+}
+
+.content {
+    width: calc(100% - 60px);
+}
+
+#linksPerfil {
+    text-align: right;
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#linksPerfil a{
+    color: white;
+    text-decoration: none;
+}
+#logo {
+    margin-top: 10px;
+}
+
+#logo img {
+    width: 150px;
+}
